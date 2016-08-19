@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShoppingCalcluator</title>
+    <!-- Isaac Meder-->
+</head>
+<body>
+<form method="get" id="shoppingForm">
+    <fieldset>
+        <table border="1">
+            <!-- row 1-->
+            <tr>
+                <td><label for="quantity">Quantity</label> </td>
+                <td><input type="number" name="quantity" id="quantity"
+                           value="1" min="1" required> </td>
+            </tr>
+            <!-- row 2-->
+            <tr>
+                <td><label for="Price Per Unit"> Price Per Unit</label> </td>
+                <td><input type="text" name="quantity" id="Price Per Unit"
+                           value="1" min="1" required> </td>
+            </tr>
+            <!-- row 3-->
+            <tr>
+                <td><label for="Taxrate">Tax Rate (%)</label> </td>
+                <td><input type="text" name="quantity" id="taxrate"
+                           value="1" min="1" required> </td>
+            </tr>
+            <!-- row 4-->
+            <tr>
+                <td><label for="Discount">Discount</label> </td>
+                <td><input type="text" name="quantity" id="Discount"
+                           value="1" min="1" required> </td>
+            </tr>
+            <!-- row 5-->
+            <tr>
+                <td><label for="total">Total</label> </td>
+                <td><input type="text" name="quantity" id="total"
+                           value="0" min="1" readonly> </td>
+            </tr>
+            <!-- row 6-->
+            <tr>
+                <td align="right" colspan="2">
+                    <input type="submit"
+                           id="submit" value="Calcluate">
+                </td>
+            </tr>
+
+
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>
